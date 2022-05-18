@@ -1,0 +1,25 @@
+.article-body {
+	display: flex;
+}
+
+.article-body > img, .box {
+	flex: 1;
+	padding: 2em;
+	margin: 0.5em;
+	border: solid;
+}
+
+.article-body > img {
+	height: 250px;
+    width: 200px;
+}
+
+
+article > h3 {
+	color: #4ba194;
+}
+
+.border-blue {
+	border: solid 3px blue;
+	padding: 0.25em;
+}
